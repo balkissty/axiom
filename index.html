@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axiom</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="tailwindmin.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <div>
+        <nav class="bg-white lg:flex items-center text-sm font-semibold lg:fixed z-50 w-full">
+            <div class="flex justify-between border-b-2 lg:border-b-0 items-center py-6">
+                <p class="lg:px-6 pl-4 text-2xl font-bold">
+                    AXIOM
+                </p>
+                <div class="lg:hidden pr-4">
+                    <svg class="w-8 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </div>
+            </div>
+            <div>
+                <ul class="lg:flex divide-y-2 > * lg:divide-y-0 > * border-b-2 lg:border-b-0">
+                    <li class="py-6 px-4">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="py-6 px-4">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="py-6 px-4">
+                        <a href="#">Careers</a>
+                    </li>
+                    <li class="py-6 px-4">
+                        <a href="#">People</a>
+                    </li>
+                    <li class="py-6 px-4">
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li class="py-6 px-4">
+                        <a href="#">Resources</a>
+                    </li>
+                    <li class="py-6 px-4">
+                        <a href="#">Locations</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="ml-auto lg:mr-6">
+                <ul class="lg:flex items-center">
+                    <li class="hidden lg:flex py-6 px-4">
+                        <a class="w-full" href="#">Contact</a>
+                    </li>
+                    <li class="lg:hidden mt-10 mb-6 px-4">
+                        <button class="w-full py-4 px-4 rounded-md font-bold bg-green-200" href="#">Contact</button>
+                    </li>
+                    <li class="px-4 mb-10 lg:mb-0">
+                        <button class="w-full lg:w-auto bg-green-600 rounded-md text-white font-semibold py-4 lg:py-3 px-4">Start free trial</button>
+                    </li>
+                    <li class="flex border-2 lg:border-0 py-6">
+                        <a class="flex w-1/2 lg:w-auto border-r-2 lg:border-r-0 justify-center" href="#">Log in</a>
+                        <a class="flex w-1/2 justify-center lg:hidden" href="#">Language</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- NAVIGATION END -->
+
+    <!-- BANNER -->
+    <section class="">
+        <div class="pt-8 banner bg-no-repeat bg-cover bg-center">
+            <div class="px-3 max-w-7xl mx-auto pt-40 pb-16 items-center text-white">
+                <p class="text-5xl max-w-lg font-bold">
+                    Access to marketing system that brings customers to you.
+                </p>
+                <p class="text-lg mt-6 max-w-lg">
+                    A lot of companies have chosen to downsize, and maybe that was the right thing for them. We chose a different path.
+                    Our belief was that if we kept putting great products in front of customers, they would continue to open their wallets."
+                </p>
+                <div class="grid lg:flex">
+                    <button class="bg-green-600 lg:mr-6 font-bold mt-8 px-10 py-2 text-white focus:outline-none rounded-sm">Free Trial</button>
+                    <button class="border-2 border-white font-bold mt-8 px-10 py-2 text-white focus:outline-none rounded-sm">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BANNER END -->
+
+    <!-- PARTNERS -->
+    <section>
+        <div class="p-3">
+            <div class="max-w-7xl mx-auto mb-20 text-center">
+                <div class="flex flex-wrap justify-center lg:justify-between items-center text-gray-500">
+                    <svg class="h-24 my-5 mx-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.756 192.756"><g fill-rule="evenodd" clip-rule="evenodd"><path fill="#fff" d="M0 0h192.756v192.756H0V0z"/><path d="M28.085 100.818h1.095c-2.818 4.963-7.253 8.17-12.331 8.17-7.057 0-13.638-3.385-13.979-10.646l1.096.004c.062 2.352 1.357 3.777 3.535 4.57 3.204 1.166 5.281-.475 6.824-1.441h1.096c-.646 1.59.183 2.598 1.606 2.848l.003.004c1.733.305 6.078-.059 10.304-2.367l.751-1.142zM16.334 83.751c-6.66 2.264-10.503 6.158-12.379 11.871l-1.121-.004.942-11.868 12.558.001z"/><path d="M22.78 86.894c-.387-.727-.31-2.362-1.854-3.134h8.571v3.726H28.39l-2.913-1.315c-.39-.142-.766-.152-1.095.233l-.502.49h-1.1zm-1.178 12.079s4.418-5.873 6.648-8.851l.151-1.688h1.105v6.152c-2.267 4.166-5.567 5.5-7.709 5.537h-1.102c-.126-.215.574-.787.907-1.15zm-4.444-11.33c-2.647.968-5.21 5.78-6.4 9.048-.467 1.283-.231 2.334.884 2.74h1.036c2.137.014 3.988-1.908 5.086-3.599l3.611-5.758c-.391-.836-.836-1.786-2.23-2.294a2.302 2.302 0 0 0-.792-.138h-1.195v.001z"/><path d="M2.873 98.361c.062 2.352 1.357 3.777 3.535 4.57 3.624 1.32 6.484-.52 7.898-1.457-.646 1.59.205 2.613 1.628 2.863l.003.004c1.987.35 7.41-.178 12.149-3.516-2.817 4.963-7.253 8.18-12.331 8.18-5.354.001-12.882-2.235-12.882-10.644zM28.39 87.485l-4.016-1.331c-.391-.142-.766-.152-1.095.233l-.502.512c-.209-.45-1.475-3.141-5.117-3.141h10.733l-.003 3.727z" fill="current"/><path d="M20.499 98.977s7.847-10.431 7.905-10.54v6.153c-2.267 4.166-5.567 5.494-7.709 5.529-.533.01-.75-.541-.196-1.142zM14.311 83.751c-6.193 2.109-9.6 6.162-11.476 11.875V83.751h11.476zM20.271 89.985c-.39-.836-.836-1.693-2.23-2.201-3.066-1.116-6.926 4.804-8.387 8.817-.467 1.283-.36 2.205.755 2.611 2.62.953 4.958-1.479 6.251-3.47l3.611-5.757z" fill="current"/><path d="M44.843 98.426l-1.472 3.605h-2.91l7.142-14.57 7.205 14.57h-2.906l-1.493-3.605h-5.566zm2.761-5.947l-2.076 4.033h4.202l-2.126-4.033zM141.615 98.426l-1.471 3.605h-2.91l7.143-14.57 7.205 14.57h-2.906l-1.492-3.605h-5.569zm2.762-5.947l-2.074 4.033h4.199l-2.125-4.033zM75.765 97.99c-.862 2.652-3.444 4.311-6.343 4.311-1.723 0-3.483-.48-4.716-1.535-1.315-1.125-2.162-2.9-2.162-5.628 0-2.414.8-4.227 2.138-5.411 1.256-1.07 2.906-1.625 4.773-1.625 3.058 0 5.377 1.415 6.132 4.151l-3.015.325c-.472-1.542-1.375-2.551-3.13-2.551-2.18 0-3.875 1.517-3.875 5.195 0 3.747 1.804 5.161 3.835 5.161 1.906 0 2.991-1.471 3.315-2.818l3.048.425zM96.358 90.264h-4.883v11.767h-2.95V90.264h-4.891v-1.892h12.724v1.892zM105.178 102.031V88.372h2.967v13.659h-2.967zM123.416 97.529c.453-1.723 3.375-9.157 3.375-9.157h3.137l-6.756 15.146-6.396-15.146h3.137s2.924 7.437 3.369 9.157h.134zM171.639 90.264h-4.883v11.767h-2.949V90.264h-4.891v-1.892h12.723v1.892zM188.045 94.038v1.93h-4.877v4.134h6.754v1.929h-9.701V88.372h9.521v1.93h-6.574v3.736h4.877z"/></g></svg>
+                    <svg class="h-24 my-5 mx-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.756 192.756"><g fill-rule="evenodd" clip-rule="evenodd"><path fill="#fff" d="M0 0h192.756v192.756H0V0z"/><path d="M184.748 105.143a2.302 2.302 0 1 0 2.295 2.297 2.295 2.295 0 0 0-2.295-2.297zm0 4.326a2.021 2.021 0 0 1-2.025-2.029 2.021 2.021 0 0 1 4.043 0 2.021 2.021 0 0 1-2.018 2.029z"/><path d="M185.928 106.836c0-.217-.096-.445-.289-.555-.191-.113-.408-.127-.627-.127h-1.121v2.574h.314v-1.188h.578l.736 1.188h.373l-.777-1.188c.457-.011.813-.198.813-.704zm-1.24.459h-.482v-.91h.734c.32 0 .67.049.67.445-.001.525-.561.465-.922.465zM4.127 109.643h11.159l2.678-3.75h9.864l.034-.035-.346 3.785h9.374l2.678-25.53h-15.98l-19.461 25.53zm24.413-9.819h-6.38l7.499-10.712-1.119 10.712zM62.956 84.113l-3.481 10.533c-1.964-2.142-3.928-3.095-6.07-3.08-6.16-.283-12.505 4.812-13.257 9.775-.758 4.998 1.117 9.016 7.544 9 4.284-.016 6.427-1.324 7.32-2.484v1.785h9.373l8.57-25.53h-9.999v.001zm-5.066 16.782c-.319 1.812-2.405 3.443-4.218 3.461-2.143.02-3.559-1.648-3.239-3.461.32-1.812 2.347-3.48 4.665-3.461 1.812.015 3.111 1.648 2.792 3.461zM108.305 91.879c-4.732 0-8.303 2.143-10.445 3.838-.268-1.25-1.25-3.838-5.177-3.838-3.75 0-7.677 1.607-9.73 3.481l1.161-3.481H74.65l-5.981 17.764h9.463l2.5-7.678c.625-1.963 3.035-3.926 4.731-3.926 1.964 0 1.25 2.855.982 3.748l-2.678 7.855h9.374l2.678-7.855c.536-1.785 1.964-3.303 4.017-3.303s1.965 2.41 1.518 3.66l-2.588 7.498h9.463l4.016-11.961c.623-1.607.89-5.802-3.84-5.802zM117.588 91.879l-5.981 17.764h9.463l5.891-17.764h-9.373zM123.57 90.615c2.998 0 5.428-1.752 5.428-3.913s-2.43-3.913-5.428-3.913c-3 0-5.43 1.752-5.43 3.913s2.43 3.913 5.43 3.913zM163.115 91.879l-.713 2.321c-1.965-2.142-3.84-2.588-5.982-2.573-6.158-.284-12.504 4.751-13.256 9.715-.758 4.998 1.115 9.016 7.543 9 4.285-.016 5.625-1.324 6.518-2.484v1.785h9.373l5.98-17.764h-9.463zm-2.386 9.016c-.469 1.785-2.227 3.443-4.039 3.461-2.145.02-3.561-1.648-3.24-3.461s2.346-3.48 4.664-3.461c1.812.015 3.081 1.681 2.615 3.461zM178.916 84.113l-8.48 25.53h9.373l8.57-25.53h-9.463z"/><path d="M146.154 91.879c-4.195-.357-5.891 1.696-6.338 2.143-.447.446-.803.536-.803-.089l.445-2.053h-8.57l-5.891 17.764h9.283l1.785-5.088c2.143-6.248 6.74-5.623 7.812-5.445l2.277-7.232z"/></g></svg>
+                    <svg class="h-24 my-5 mx-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.756 192.756"><g fill-rule="evenodd" clip-rule="evenodd"><path fill="#fff" d="M0 0h192.756v192.756H0V0z"/><path d="M22.613 101.389v-.49c-.979-.082-1.061-.326-1.061-.652V86.382h6.361c.408 0 .571.163.652 1.06h.489v-6.605h-.489c-.081.815-.244.979-.652.979H9.646c-.408 0-.571-.163-.734-.979h-.408v6.605h.408c.163-.897.326-1.06.734-1.06h6.361v13.864c0 .326-.164.57-1.061.652v.49h7.667v.001zM54.582 88.42h-.407c-.164.49-.408.897-1.142.897h-6.851v-3.099h11.907c.408 0 .49.163.652 1.061h.408v-6.443h-.408c-.163.815-.244.979-.652.979H39.576v.489c.897.082.979.326.979.652v17.29c0 .326-.081.57-.979.652v.49h18.513c.408 0 .49.162.652.814h.408v-6.524h-.408c-.163.979-.244 1.141-.652 1.141H46.182v-3.425h6.851c.734 0 .979.326 1.142.815h.407V88.42zM77.335 82.957c0-.326.081-.571 1.06-.652v-.489h-7.666v.489c.897.082 1.061.326 1.061.652v17.29c0 .326-.163.57-1.061.652v.49h19.329c.408 0 .571.162.734.896h.408v-6.524h-.408c-.163.897-.326 1.06-.734 1.06H77.335V82.957zM100.414 100.246l.49.082c.244-.164.408-.49.734-.49.814 0 3.588 1.713 9.785 1.713 8.074 0 10.439-3.506 10.439-6.687 0-8.563-15.332-4.486-15.332-7.748 0-.897 1.143-1.794 4.322-1.794 3.508 0 7.748 1.06 7.748 1.958v.408l.408.244 2.609-5.138-.408-.163c-.326.326-.57.571-1.061.571-.979 0-4.648-1.549-9.705-1.549-5.463 0-9.051 2.528-9.051 6.279 0 7.095 15.332 4.078 15.332 6.851 0 1.631-1.713 2.529-5.383 2.529-3.916 0-7.83-1.713-7.83-2.692 0-.326 0-.571.082-.815l-.408-.163-2.771 6.604zM146.412 82.304c.326 0 .814 0 .814.408s-3.914 5.546-4.322 6.28c-1.223-1.876-4.078-5.872-4.078-6.28s.408-.408.898-.408v-.489h-8.156v.489c.326 0 .408.082 1.223 1.223l7.096 10.194v6.524c0 .326-.162.57-1.061.652v.49h7.666v-.49c-.979-.082-1.061-.326-1.061-.652v-7.258l7.096-10.031c.246-.326.57-.652.896-.652v-.489h-7.012v.489h.001zM162.803 100.246l.49.082c.162-.164.408-.49.734-.49.814 0 3.588 1.713 9.785 1.713 8.074 0 10.439-3.506 10.439-6.687 0-8.563-15.332-4.486-15.332-7.748 0-.897 1.061-1.794 4.322-1.794 3.508 0 7.748 1.06 7.748 1.958v.408l.408.244 2.527-5.138-.408-.163c-.244.326-.488.571-.979.571-.979 0-4.648-1.549-9.705-1.549-5.463 0-9.051 2.528-9.051 6.279 0 7.095 15.25 4.078 15.25 6.851 0 1.631-1.631 2.529-5.383 2.529-3.834 0-7.748-1.713-7.748-2.692v-.815l-.326-.163-2.771 6.604z" fill="#b32c5e"/><path fill="current" d="M50.422 111.094h-6.85v1.304H46.1v7.584h1.55v-7.584h2.609l.163-1.304zM65.51 119.982v-1.386h-4.078v-2.61h3.099v-1.304h-3.099v-2.284h3.752l.163-1.304h-5.546v8.888h5.709zM80.923 118.678h-3.751v-7.584h-1.549v8.888h5.056l.244-1.304zM95.848 119.982v-1.386H91.77v-2.61h3.099v-1.304h-3.18v-2.284h3.833l.163-1.304h-5.546v8.888h5.709zM112.24 119.33l-.734-.979c-.57.326-1.141.57-1.875.57a2.48 2.48 0 0 1-1.957-.896c-.49-.572-.734-1.225-.734-2.447 0-.979.162-1.631.488-2.121.408-.814 1.225-1.223 2.121-1.223.652 0 1.223.164 1.713.49l.816-1.061c-.654-.408-1.633-.734-2.529-.734-1.549 0-2.854.734-3.588 1.957-.49.734-.734 1.713-.734 2.773 0 1.387.408 2.527 1.305 3.344.734.734 1.713 1.141 2.936 1.141 1.141.001 2.12-.326 2.772-.814zM129.041 115.578c0-1.469-.326-2.447-.898-3.18-.814-.898-1.793-1.387-3.262-1.387-2.527 0-4.078 1.713-4.078 4.484 0 1.469.408 2.609 1.225 3.508.732.734 1.631 1.141 3.018 1.141 1.467 0 2.365-.488 3.098-1.385.651-.734.897-1.794.897-3.181zm-1.795.082c0 .896-.082 1.467-.244 2.039-.326.814-.979 1.223-1.957 1.223-.898 0-1.631-.244-1.957-.816-.328-.652-.49-1.467-.49-2.689 0-1.061.082-1.795.408-2.285.408-.57 1.061-.896 1.875-.896.896 0 1.631.326 2.039 1.061.244.568.326 1.303.326 2.363zM148.531 119.982l-.814-8.889h-2.203l-1.467 4.893c-.246.652-.408 1.631-.49 1.795 0-.164-.244-1.143-.408-1.795l-1.549-4.893h-2.121l-.896 8.889h1.549l.408-5.383c.082-.734.164-1.713.164-1.795 0 .164.244 1.143.488 1.795l1.631 5.383h1.387l1.795-5.383c.162-.734.408-1.631.488-1.795 0 .164 0 1.143.082 1.795l.408 5.383h1.548z"/></g></svg>
+                    <svg class="h-24 my-5 mx-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.756 192.756"><g fill-rule="evenodd" clip-rule="evenodd"><path fill="#fff" d="M0 0h192.756v192.756H0V0z"/><path d="M184.748 105.143a2.302 2.302 0 1 0 2.295 2.297 2.295 2.295 0 0 0-2.295-2.297zm0 4.326a2.021 2.021 0 0 1-2.025-2.029 2.021 2.021 0 0 1 4.043 0 2.021 2.021 0 0 1-2.018 2.029z"/><path d="M185.928 106.836c0-.217-.096-.445-.289-.555-.191-.113-.408-.127-.627-.127h-1.121v2.574h.314v-1.188h.578l.736 1.188h.373l-.777-1.188c.457-.011.813-.198.813-.704zm-1.24.459h-.482v-.91h.734c.32 0 .67.049.67.445-.001.525-.561.465-.922.465zM4.127 109.643h11.159l2.678-3.75h9.864l.034-.035-.346 3.785h9.374l2.678-25.53h-15.98l-19.461 25.53zm24.413-9.819h-6.38l7.499-10.712-1.119 10.712zM62.956 84.113l-3.481 10.533c-1.964-2.142-3.928-3.095-6.07-3.08-6.16-.283-12.505 4.812-13.257 9.775-.758 4.998 1.117 9.016 7.544 9 4.284-.016 6.427-1.324 7.32-2.484v1.785h9.373l8.57-25.53h-9.999v.001zm-5.066 16.782c-.319 1.812-2.405 3.443-4.218 3.461-2.143.02-3.559-1.648-3.239-3.461.32-1.812 2.347-3.48 4.665-3.461 1.812.015 3.111 1.648 2.792 3.461zM108.305 91.879c-4.732 0-8.303 2.143-10.445 3.838-.268-1.25-1.25-3.838-5.177-3.838-3.75 0-7.677 1.607-9.73 3.481l1.161-3.481H74.65l-5.981 17.764h9.463l2.5-7.678c.625-1.963 3.035-3.926 4.731-3.926 1.964 0 1.25 2.855.982 3.748l-2.678 7.855h9.374l2.678-7.855c.536-1.785 1.964-3.303 4.017-3.303s1.965 2.41 1.518 3.66l-2.588 7.498h9.463l4.016-11.961c.623-1.607.89-5.802-3.84-5.802zM117.588 91.879l-5.981 17.764h9.463l5.891-17.764h-9.373zM123.57 90.615c2.998 0 5.428-1.752 5.428-3.913s-2.43-3.913-5.428-3.913c-3 0-5.43 1.752-5.43 3.913s2.43 3.913 5.43 3.913zM163.115 91.879l-.713 2.321c-1.965-2.142-3.84-2.588-5.982-2.573-6.158-.284-12.504 4.751-13.256 9.715-.758 4.998 1.115 9.016 7.543 9 4.285-.016 5.625-1.324 6.518-2.484v1.785h9.373l5.98-17.764h-9.463zm-2.386 9.016c-.469 1.785-2.227 3.443-4.039 3.461-2.145.02-3.561-1.648-3.24-3.461s2.346-3.48 4.664-3.461c1.812.015 3.081 1.681 2.615 3.461zM178.916 84.113l-8.48 25.53h9.373l8.57-25.53h-9.463z"/><path d="M146.154 91.879c-4.195-.357-5.891 1.696-6.338 2.143-.447.446-.803.536-.803-.089l.445-2.053h-8.57l-5.891 17.764h9.283l1.785-5.088c2.143-6.248 6.74-5.623 7.812-5.445l2.277-7.232z"/></g></svg>
+                    <svg class="h-24 my-5 mx-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.756 192.756"><g fill-rule="evenodd" clip-rule="evenodd"><path fill="#fff" d="M0 0h192.756v192.756H0V0z"/><path d="M29.527 84.476s5.433-8.215 15.524-10.026h14.295l5.821-5.692H30.303L8.504 109.639h6.533c7.568-14.684 22.705-20.247 22.705-20.247l4.01-4.916H29.527zM174.809 68.693l-11.32 19.729-8.926-19.599h-25.744l-2.848 4.398s14.297-4.593 24.84 6.274c4.139 5.369 6.209 11.061 6.145 15.718 0 1.748-.258 3.623-.775 4.722l-14.037 24.191h9.379l32.73-55.499-9.444.066zM98.48 82.665c-12.484 1.358-17.659 14.101-17.659 18.952 0 4.27 5.11 16.107 21.799 3.945 0 0-3.494 7.633-16.496 15.59 3.687.582 23.351-8.539 28.203-25.033h-11.256c.26 3.299-6.274 12.16-11.449 6.986-5.627-8.668 7.05-14.942 10.802-15.072 2.781-.259 8.086-.194 12.355 2.394.002 0 .389-7.891-16.299-7.762z"/><path d="M139.232 96.119c.193 3.299-6.275 12.16-11.449 6.986-5.629-8.668 7.051-14.942 10.736-15.072 2.846-.259 8.086-.194 12.355 2.394 0 0 .453-7.892-16.236-7.762-12.484 1.358-17.658 14.101-17.658 18.952 0 4.27 5.045 16.107 21.799 3.945 0 0-3.494 7.633-16.494 15.59 3.686.582 23.35-8.539 28.137-25.033h-11.19zM59.734 82.147c-10.091 0-18.241 6.145-18.241 13.648 0 7.567 8.15 13.647 18.241 13.647s18.241-6.08 18.241-13.647c0-7.503-8.15-13.648-18.241-13.648zm0 19.859c-5.434 0-9.833-2.781-9.833-6.21 0-3.428 4.399-6.21 9.833-6.21 5.433 0 9.832 2.782 9.832 6.21 0 3.429-4.399 6.21-9.832 6.21z"/></g></svg>
+                    <svg class="h-24 my-5 mx-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.756 192.756"><g fill-rule="evenodd" clip-rule="evenodd"><path fill="#fff" d="M0 0h192.756v192.756H0V0z"/><path d="M161.879 89.015c-.74-1.171-.195-2.343 1.055-2.772 1.562-.586 4.139-1.015 4.998-1.679.43 1.171.078 3.553-.859 4.451-1.522 1.445-4.178 1.523-5.194 0zm-5.074-.429c-.078-2.07 1.17-4.178 3.045-4.803 3.006-.976 7.184-1.015 7.809-1.914.312-.507.664-1.6-.391-2.147h-9.564l2.342-3.006 8.121-.039c1.016-.195 3.592 1.289 4.021 4.295l.156 10.464c.078.312.117.703.391.898v.625l-4.256-.039-.664-1.328c-.898.742-2.811 2.186-5.428 1.874-2.772-.273-5.465-1.484-5.582-4.88zM69.366 115.404c-.703-1.172-.234-2.344 1.054-2.812 1.562-.545 4.177-.975 4.998-1.639.43 1.172.078 3.553-.82 4.412-1.562 1.483-4.178 1.6-5.232.039zm-5.076-.429c-.078-2.07 1.21-4.139 3.084-4.764 2.968-1.016 7.145-1.055 7.73-1.912.391-.549.703-1.641-.312-2.188h-9.604l2.382-3.045h8.082c1.055-.195 3.592 1.287 4.022 4.295l.195 10.463c.039.273.078.703.312.898l.039.625-4.294-.039-.625-1.328c-.899.742-2.772 2.186-5.427 1.914-2.812-.312-5.427-1.523-5.584-4.919zM112.666 115.404c-.742-1.172-.195-2.344 1.053-2.812 1.523-.545 4.141-.975 4.959-1.639.469 1.172.078 3.553-.818 4.412-1.563 1.483-4.18 1.6-5.194.039zm-5.076-.429c-.078-2.07 1.172-4.139 3.045-4.764 2.969-1.016 7.145-1.055 7.77-1.912.352-.549.664-1.641-.352-2.188h-9.604l2.381-3.045h8.082c1.055-.195 3.592 1.287 4.021 4.295l.195 10.463c.078.273.117.703.352.898v.625l-4.256-.039-.625-1.328c-.896.742-2.811 2.186-5.465 1.914-2.773-.312-5.427-1.523-5.544-4.919zM149.055 105.564c-5.037.664-5.154 10.152.039 10.465 5.545 0 6.09-10.152-.039-10.465zm-.039-3.357c-11.088.703-11.166 16.477 0 17.297 10.931-.43 11.986-16.906 0-17.297zM85.393 79.293c-4.998.663-5.115 10.151.078 10.425 5.544-.04 6.091-10.152-.078-10.425zm-.039-3.358c-11.049.664-11.127 16.438.04 17.297 10.892-.469 11.946-16.945-.04-17.297zM179.508 115.598c-2.654 0-2.42 3.906.039 3.867 2.383 0 2.771-3.867-.039-3.867zm0 .431c-2.068 0-1.873 3.045.039 3.045 1.875-.039 2.187-3.045-.039-3.045zm-.584.35v2.148h.391v-.898h.193c.312.273.391.547.547.859h.312c-.078-.273-.195-.586-.43-.859v-.117c.195-.078.391-.273.391-.547s-.234-.508-.391-.586h-1.013zm.349.273v.664h.547c.078-.078.195-.117.195-.352 0-.195-.078-.195-.156-.312h-.586z"/><path d="M60.327 76.56v16.438h4.334V80.386h4.607c.702.195 1.171.625 1.327 1.25V92.92h4.607V78.395c-.04-.897-.391-1.679-1.21-1.874l-6.793-.04-2.304 3.163V76.56h-4.568zM95.31 76.56v16.36h4.452V79.801h6.05v-3.475h-3.904l-2.146 2.342V76.56H95.31zM173.709 76.56v16.36h4.49V79.801h6.053v-3.475h-3.943l-2.11 2.342V76.56h-4.49zM107.141 71.602v18.819c.352 1.405 1.248 2.186 2.342 2.499h5.115v-3.007h-1.289c-1.053-.039-1.6-.507-1.795-1.406v-7.145l3.279-1.562v-3.006l-3.201 1.288v-6.48h-4.451zM81.938 98.303v18.818c.39 1.406 1.289 2.188 2.343 2.5h5.153v-3.047h-1.289c-1.054-.037-1.64-.469-1.796-1.365v-7.146l3.28-1.561v-3.047l-3.202 1.328v-6.48h-4.489zM98.766 98.303v18.818c.391 1.406 1.25 2.188 2.344 2.5h5.152v-3.047h-1.328c-.975-.037-1.561-.469-1.756-1.365v-7.146l3.279-1.561v-3.047l-3.24 1.328v-6.48h-4.451zM148.02 71.602v18.819c.352 1.405 1.25 2.186 2.303 2.499h5.115v-3.007h-1.289c-.975-.039-1.561-.507-1.717-1.406v-7.145l3.24-1.562v-3.006l-3.24 1.288v-6.48h-4.412zM116.121 71.484v21.357h4.373V79.528h4.762c.742 0 1.094.234 1.172.82v12.494h4.412V77.927c-.117-1.016-.703-1.561-1.834-1.561h-5.818l-2.654 2.146v-7.028c-.001 0-4.413-.078-4.413 0zM124.613 98.029v21.436h4.373v-13.354h4.764c.701 0 1.092.273 1.131.781v12.572h4.412V104.51c-.078-1.014-.664-1.561-1.834-1.6h-5.779l-2.654 2.186V98.03c-.001-.001-4.413-.04-4.413-.001zM142.514 81.323h3.865c-.977-3.162-3.045-5.388-7.457-5.505-4.217.117-6.363 1.952-6.793 5.232-.078 2.85 1.951 4.373 5.506 4.998 3.396.468 4.918 1.25 4.566 2.772-.156 1.055-1.131 1.289-3.084 1.484-2.146-.274-3.436-1.172-3.396-3.084h-4.178c.273 3.826 2.85 5.895 7.652 6.247 4.295-.195 7.029-1.796 7.418-5.466-.039-2.889-1.641-4.724-5.582-5.115-2.969-.391-4.646-1.054-4.725-2.265.352-1.795 2.615-1.795 4.098-1.444 1.289.351 1.875 1.6 2.11 2.146zM163.617 111.693h12.221c.508-5.738-4.1-9.76-8.59-9.486-4.605.078-8.238 3.631-8.277 8.746.273 5.387 4.217 8.707 9.137 8.824 3.982.195 6.754-2.422 7.535-5.545h-4.49c-.586 1.328-1.951 2.146-3.279 2.107-1.874-.036-3.71-2.107-4.257-4.646zm.039-.662l2.188-2.188h5.309c-.311-1.758-1.092-3.123-3.475-3.24-2.459-.078-4.295 2.344-4.022 5.428zM32.892 124.289V97.346l10.916-5.942-.069 26.461-10.847 6.424zm-12.85-35.027V75.928l12.229-7.461v13.68l-12.229 7.115zm12.504 6.909l-10.777-6.425 22.177-13.058 10.985 6.702s0 .069-.069.138L32.546 96.171zm-.898 13.542L8.504 96.171v-12.92l23.145 13.68v12.782h-.001zm24.25 1.242l-10.985-6.217.138-14.371 10.778 6.01.069 14.578zm-35.373 6.772L8.573 110.68l11.193-6.633 12.021 7.324-11.262 6.356z"/></g></svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PARTNERS END -->
+
+    <section class="p-3 px-12 mb-24">
+        <div class="mb-12 grid grid-cols-1 lg:grid-cols-12 items-center max-w-7xl mx-auto">
+            <p class="lg:col-span-6 text-2xl lg:text-5xl font-bold mb-5">
+                Connect with clients using best strategies
+            </p>
+            <p class="lg:col-span-5 text-lg lg:col-start-8">
+                Axiom’s technology is a booming market full of exciting and innovative products and new learning opportunities. 
+                With technology as a major consumer of our time and also an exciting experience in our world today
+            </p>
+        </div>
+    </section>
+
+    <!-- LISTS -->
+    <section class="px-12 p-3">
+        <div class="grid md:grid-cols-5 md:space-x-16 > * space-y-16 > * md:space-y-0 > * text-center max-w-7xl mx-auto mb-32">
+            <div>
+                <p class="flex justify-center text-blue-500 text-3xl mb-8">
+                    <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </p>
+                <p class="text-lg">make marketing your products easy in just a single click</p>
+            </div>
+            <div>
+                <p class="flex justify-center text-red-500 text-3xl mb-8">
+                    <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z" clip-rule="evenodd" />
+                    </svg>
+                </p>
+                <p class="text-lg">easily work remotely and manage physical activities without leaving your home</p>
+            </div>
+            <div>
+                <p class="flex justify-center text-3xl text-yellow-500 mb-8">
+                    <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76" />
+                    </svg>
+                </p>
+                <p class="text-lg">access and control mail messages in without wasting time checking through your mailbox</p>
+            </div>
+            <div>
+                <p class="flex justify-center text-3xl text-pink-500 mb-8">
+                    <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clip-rule="evenodd" />
+                    </svg>
+                </p>
+                <p class="text-lg">connect with your target customers around the globe without a single flight</p>
+            </div>
+            <div>
+                <p class="flex justify-center text-purple-500 text-3xl mb-8">
+                    <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </p>
+                <p class="text-lg">access funds and manage different currencies in all parts of the world</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-12 p-3">
+        <p class="text-2xl md:text-5xl max-w-7xl mx-auto font-semibold">Why Axiom?</p>
+    </section>
+    <section class="px-12 p-3 mb-32 mt-12">
+        <div class="grid md:grid-cols-3 gap-16 max-w-7xl mx-auto">
+            <div class="p-3 border-t border-yellow-600">
+                <p class="pt-4 text-lg md:text-xl lg:text-2xl font-semibold">Discover creations</p>
+                <p class="pt-8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, eos quis enim 
+                    consectetur molestias tempore. 
+                    Sed, minima. Tempore, doloribus verit
+                </p>
+                <img class="rounded-xl mt-10 md:h-48 w-full" src="https://images.unsplash.com/photo-1585809669319-cdaaada9fa52?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTU3fHxib29rc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>
+            <div class="p-3 border-t border-blue-500">
+                <p class="pt-4 text-lg md:text-xl lg:text-2xl font-semibold">Explore your world</p>
+                <p class="pt-8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, eos quis enim 
+                    consectetur molestias tempore. 
+                    Sed, minima. Tempore, doloribus verit
+                </p>
+                <img class="rounded-xl mt-10 md:h-48 w-full" src="https://images.unsplash.com/photo-1512045482940-f37f5216f639?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjZ8fGJvb2tzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>
+            <div class="p-3 border-t border-red-500">
+                <p class="pt-4 text-lg md:text-xl lg:text-2xl font-semibold">Make  it make sense</p>
+                <p class="pt-8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, eos quis enim 
+                    consectetur molestias tempore. 
+                    Sed, minima. Tempore, doloribus verit
+                </p>
+                <img class="rounded-xl mt-10 md:h-48 w-full" src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzR8fGJvb2tzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="px-12">
+            <div class="grid lg:grid-cols-2 gap-12 justify-center max-w-7xl mx-auto pb-40">
+                <img class="hidden w-full lg:flex" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8d2Vic2l0ZSUyMGRlbW98ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="mt-8 md:mt-0 grid gap-4 content-between">
+                        <p class="text-4xl font-semibold tracking-tight">
+                            Gather resources for your next best team of developers
+                        </p>
+                        <p class="text-lg lg:max-w-lg">
+                            A designer knows he has achieved perfection
+                            not when there is nothing left to add, but when
+                            there is nothing left to take away. left to add, but when
+                            there is nothing left to take away.  A designer knows he has achieved perfection
+                            not when there Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia accusantium obcaecati porro corrupti, officiis, 
+                        </p>
+                    <a class="font-semibold underline" href="">Start Free Trial</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="px-12">
+            <div class="grid lg:grid-cols-2 gap-12 justify-center max-w-7xl mx-auto pb-40">
+                <div class="mt-8 md:mt-0 grid gap-4 content-between">
+                        <p class="text-4xl font-semibold tracking-tight">
+                            Make remote work easier and on time
+                        </p>
+                        <p class="text-lg lg:max-w-lg">
+                            A designer knows he has achieved perfection
+                            not when there is nothing left to add, but when
+                            there is nothing left to take away. left to add, but when
+                            there is nothing left to take away.  A designer knows he has achieved perfection
+                            not when there Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia accusantium obcaecati porro corrupti, officiis, 
+                        </p>
+                    <a class="font-semibold underline" href="">Start Free Trial</a>
+                </div>
+                <img class="hidden w-full lg:flex" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8d2Vic2l0ZSUyMGRlbW98ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="px-12">
+            <div class="grid lg:grid-cols-2 gap-12 justify-center max-w-7xl mx-auto pb-40">
+                <img class="hidden w-full lg:flex" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8d2Vic2l0ZSUyMGRlbW98ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="mt-8 md:mt-0 grid gap-4 content-between">
+                        <p class="text-4xl font-semibold tracking-tight">
+                            Experience the new world of technology
+                        </p>
+                        <p class="text-lg lg:max-w-lg">
+                            A designer knows he has achieved perfection
+                            not when there is nothing left to add, but when
+                            there is nothing left to take away. left to add, but when
+                            there is nothing left to take away.  A designer knows he has achieved perfection
+                            not when there Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia accusantium obcaecati porro corrupti, officiis, 
+                        </p>
+                    <a class="font-semibold underline" href="">Start Free Trial</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="px-12">
+            <div class="grid lg:grid-cols-2 gap-12 justify-center max-w-7xl mx-auto pb-40">
+                <div class="mt-8 md:mt-0 grid gap-4 content-between">
+                        <p class="text-4xl font-semibold tracking-tight">
+                            Implement best work culture in your team
+                        </p>
+                        <p class="text-lg lg:max-w-lg">
+                            A designer knows he has achieved perfection
+                            not when there is nothing left to add, but when
+                            there is nothing left to take away. left to add, but when
+                            there is nothing left to take away.  A designer knows he has achieved perfection
+                            not when there Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia accusantium obcaecati porro corrupti, officiis, 
+                        </p>
+                    <a class="font-semibold underline" href="">Start Free Trial</a>
+                </div>
+                <img class="hidden w-full lg:flex" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8d2Vic2l0ZSUyMGRlbW98ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="px-12 p-3">
+        <p class="text-2xl mb-12 md:text-5xl max-w-7xl mx-auto font-semibold">Highlights of what you can do on Axiom</p>
+        <div class="grid md:grid-cols-5 md:space-x-16 > * space-y-16 > * md:space-y-0 > * text-left md:text-center max-w-7xl mx-auto mb-32">
+            <div class="lg:mr-16">
+                <p class="flex justify-center text-blue-500 text-3xl mb-8">
+                    <svg class="w-32 h-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </p>
+                <p class="text-2xl font-semibold">market your products</p>
+            </div>
+            <div>
+                <p class="flex justify-center text-red-500 text-3xl mb-8">
+                    <svg class="w-32 h-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z" clip-rule="evenodd" />
+                    </svg>
+                </p>
+                <p class="text-2xl font-semibold">work remotely</p>
+            </div>
+            <div>
+                <p class="flex justify-center text-3xl text-yellow-500 mb-8">
+                    <svg class="w-32 h-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76" />
+                    </svg>
+                </p>
+                <p class="text-2xl font-semibold">access and control</p>
+            </div>
+            <div>
+                <p class="flex justify-center text-3xl text-pink-500 mb-8">
+                    <svg class="w-32 h-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clip-rule="evenodd" />
+                    </svg>
+                </p>
+                <p class="text-2xl font-semibold">target customers</p>
+            </div>
+            <div>
+                <p class="flex justify-center text-purple-500 text-3xl mb-8">
+                    <svg class="w-32 h-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </p>
+                <p class="text-2xl font-semibold">access funds</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-12">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 items-center">
+            <div class="py-10 px-8 border-2 relative lg:col-span-4 mb-10">
+                <div class="">
+                    <p class="text-xl w-48"><span class="text-3xl">"</span> This is the whole point of technology. 
+                        It creates an appetite for immortality on the one hand.  It threatens universal extinction on the other. 
+                        Technology is lust removed from nature.<span class="text-3xl">"</span>
+                    </p>
+                </div>
+                <div class="hidden md:grid py-8 px-12 -mt-56 lg:-mr-24 bg-green-100 absolute right-0">
+                    <p class="mb-5 font-semibold">PRODUCT USED</p>
+                    <button class="bg-green-600 mb-2 font-semibold py-1 px-3 text-white focus:outline-none rounded">Contact Partners</button>
+                </div>
+                <button class="flex md:hidden bg-green-600 mb-2 mt-4 font-semibold py-1 px-3 text-white focus:outline-none rounded">Contact Partners</button>
+            </div>
+            <div class="py-10 px-8 border-2 relative lg:col-span-4 lg:col-start-8 mb-10">
+                <div class="">
+                    <p class="text-xl w-48"><span class="text-3xl">"</span> This is the whole point of technology. 
+                        It creates an appetite for immortality on the one hand.  It threatens universal extinction on the other. 
+                        Technology is lust removed from nature.<span class="text-3xl">"</span>
+                    </p>
+                </div>
+                <div class="hidden md:grid py-8 px-12 -mt-56 lg:-mr-24 bg-green-100 absolute right-0">
+                    <p class="mb-5 font-semibold">PRODUCT USED</p>
+                    <button class="bg-green-600 mb-2 font-semibold py-1 px-3 text-white focus:outline-none rounded">Contact Partners</button>
+                </div>
+                <button class="flex md:hidden bg-green-600 mb-2 font-semibold mt-4 py-1 px-3 text-white focus:outline-none rounded">Contact Partners</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-green-100 mt-24">
+        <div class="py-24 px-12">
+            <div class="grid md:grid-cols-12 max-w-7xl mx-auto items-center">
+                <div class="md:col-span-5">
+                    <p class="text-base md:text-5xl mb-10 font-semibold leading-tight">Axiom is one unique solution management issues</p>
+                </div>
+                <div class="md:col-span-7 md:col-start-7 grid justify-center gap-10 md:gap-0 md:grid-cols-3">
+                    <svg class="mx-10 w-32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+                    </svg>
+                    <svg class="mx-10 w-32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+                    </svg>
+                    <svg class="mx-10 w-32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="px-12 my-24">
+            <div class="grid md:grid-cols-12 items-center max-w-7xl mx-auto">
+                <div class="col-span-6 mb-10">
+                    <p class="md:text-5xl text-2xl font-semibold leading-tight">enjoy one unique solution to hundreds of management issues in your company</p>
+                </div>
+                <div class="md:text-center underline col-span-4 md:col-start-9">
+                    <a class="font-semibold text-blue-400" href="">view demo to select solution</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="px-12">
+            <div class="grid md:grid-cols-3 max-w-7xl mx-auto">
+                <div class="rounded bg-white border mb-20 mx-6 p-2">
+                    <img class="w-full" src="https://images.unsplash.com/photo-1585809669319-cdaaada9fa52?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTU3fHxib29rc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                    <div class="">
+                        <p class="font-semibold">Amazing things pure css can do</p>
+                        <p class="mt-5 text-sm"> Read on many amazing things you can do using pure css without frameworks</p>
+                        <div class="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 mt-4">
+                            <button class="bg-green-600 mb-2 font-bold py-1 text-white focus:outline-none rounded">Read more</button>
+                            <button class="text-green-600 mb-2 ml-2 md:ml-0 lg:ml-2 py-1 font-bold border border-green-600 focus:outline-none rounded">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded bg-white border mb-20 mx-6 p-2">
+                    <img class="w-full" src="https://images.unsplash.com/photo-1585809669319-cdaaada9fa52?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTU3fHxib29rc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                    <div class="">
+                        <p class="font-semibold">Amazing things pure css can do</p>
+                        <p class="mt-5 text-sm"> Read on many amazing things you can do using pure css without frameworks</p>
+                        <div class="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 mt-4">
+                            <button class="bg-green-600 mb-2 font-bold py-1 text-white focus:outline-none rounded">Read more</button>
+                            <button class="text-green-600 mb-2 ml-2 md:ml-0 lg:ml-2 py-1 font-bold border border-green-600 focus:outline-none rounded">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded bg-white border mb-20 mx-6 p-2">
+                    <img class="w-full" src="https://images.unsplash.com/photo-1585809669319-cdaaada9fa52?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTU3fHxib29rc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                    <div class="">
+                        <p class="font-semibold">Amazing things pure css can do</p>
+                        <p class="mt-5 text-sm"> Read on many amazing things you can do using pure css without frameworks</p>
+                        <div class="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 mt-4">
+                            <button class="bg-green-600 mb-2 font-bold py-1 text-white focus:outline-none rounded">Read more</button>
+                            <button class="text-green-600 mb-2 ml-2 md:ml-0 lg:ml-2 py-1 font-bold border border-green-600 focus:outline-none rounded">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="px-12 mb-52">
+            <div class="grid md:grid-cols-3 max-w-7xl mx-auto">
+                <div class="rounded bg-white border mb-20 mx-6 p-2">
+                    <img class="w-full" src="https://images.unsplash.com/photo-1585809669319-cdaaada9fa52?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTU3fHxib29rc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                    <div class="">
+                        <p class="font-semibold">Amazing things pure css can do</p>
+                        <p class="mt-5 text-sm"> Read on many amazing things you can do using pure css without frameworks</p>
+                        <div class="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 mt-4">
+                            <button class="bg-green-600 mb-2 font-bold py-1 text-white focus:outline-none rounded">Read more</button>
+                            <button class="text-green-600 mb-2 ml-2 md:ml-0 lg:ml-2 py-1 font-bold border border-green-600 focus:outline-none rounded">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded bg-white border mb-20 mx-6 p-2">
+                    <img class="w-full" src="https://images.unsplash.com/photo-1585809669319-cdaaada9fa52?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTU3fHxib29rc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                    <div class="">
+                        <p class="font-semibold">Amazing things pure css can do</p>
+                        <p class="mt-5 text-sm"> Read on many amazing things you can do using pure css without frameworks</p>
+                        <div class="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 mt-4">
+                            <button class="bg-green-600 mb-2 font-bold py-1 text-white focus:outline-none rounded">Read more</button>
+                            <button class="text-green-600 mb-2 ml-2 md:ml-0 lg:ml-2 py-1 font-bold border border-green-600 focus:outline-none rounded">Contact Us</button>
+                        </div>
+                    </div>
+                </div> 
+                <div class="rounded bg-white border mb-20 mx-6 p-2">
+                    <img class="w-full" src="https://images.unsplash.com/photo-1585809669319-cdaaada9fa52?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTU3fHxib29rc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                    <div class="">
+                        <p class="font-semibold">Amazing things pure css can do</p>
+                        <p class="mt-5 text-sm"> Read on many amazing things you can do using pure css without frameworks</p>
+                        <div class="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 mt-4">
+                            <button class="bg-green-600 mb-2 font-bold py-1 text-white focus:outline-none rounded">Read more</button>
+                            <button class="text-green-600 mb-2 ml-2 md:ml-0 lg:ml-2 py-1 font-bold border border-green-600 focus:outline-none rounded">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="px-12 -mt-52 max-w-7xl mx-auto xl:ml-32 absolute">
+        <div class="bg-green-100 py-24">
+            <div class="grid md:grid-cols-12 text-center md:text-left">
+                <p class="md:col-start-2 md:col-span-full mb-4 font-semibold">HOW TO REGISTER ON AXIOM</p>
+            </div>
+            <div class="grid md:grid-cols-12 items-center">
+                <div class="md:col-span-6 md:col-start-2 mb-10 md:mb-0">
+                    <p class="text-center md:text-left text-2xl md:text-5xl font-semibold leading-tight">enjoy one unique solution to hundreds of management issues</p>
+                </div>
+                <div class="text-center underline md:col-span-4 md:col-start-9">
+                    <button class="text-white py-3 px-6 font-bold bg-green-600 focus:outline-none rounded">View Demo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="bg-green-700 pt-72">
+        <div class="px-12">
+            <div class="max-w-7xl mx-auto text-white">
+                <div class="pb-24 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5">
+                    <div class="">
+                        <div class="text-left text-sm mb-3 font-semibold">
+                            PRODUCTS
+                        </div>
+                        <div class="text-left space-y-1 > * text-base">
+                            <p class="hover:underline"><a href="#">App</a></p>
+                            <p class="hover:underline"><a href="#">Blog</a></p>
+                            <p class="hover:underline"><a href="#">Payment</a></p>
+                            <p class="hover:underline"><a href="#">Launch</a></p>
+                            <p class="hover:underline"><a href="#">Pricing</a></p>
+                            <p class="hover:underline"><a href="#">Clients</a></p>
+                            <p class="hover:underline"><a href="#">Documentation</a></p>
+                        </div> 
+                        <div class="mt-4">
+                            <div class="text-left text-sm mb-3 font-semibold">
+                                MORE PRODUCTS
+                            </div>
+                            <div class="text-left space-y-1 > * text-base">
+                                <p class="hover:underline"><a href="#">Docs</a></p>
+                                <p class="hover:underline"><a href="#">Clients</a></p>
+                                <p class="hover:underline"><a href="#">Pricing</a></p>
+                                <p class="hover:underline"><a href="#">Payment</a></p>
+                                <p class="hover:underline"><a href="#">Blog</a></p>
+                                <p class="hover:underline"><a href="#">App</a></p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="">
+                        <div class="text-left text-sm mb-3 font-semibold">
+                            SERVICES
+                        </div>
+                        <div class="text-left space-y-1 > * text-base">
+                            <p class="hover:underline"><a href="#">App</a></p>
+                            <p class="hover:underline"><a href="#">Blog</a></p>
+                            <p class="hover:underline"><a href="#">Payment</a></p>
+                            <p class="hover:underline"><a href="#">Launch</a></p>
+                            <p class="hover:underline"><a href="#">Pricing</a></p>
+                            <p class="hover:underline"><a href="#">Clients</a></p>
+                            <p class="hover:underline"><a href="#">Documentation</a></p>
+                        </div> 
+                        <div class="mt-4">
+                            <div class="text-left text-sm mb-3 font-semibold">
+                                MORE
+                            </div>
+                            <div class="text-left space-y-1 > * text-base">
+                                <p class="hover:underline"><a href="#">Docs</a></p>
+                                <p class="hover:underline"><a href="#">Clients</a></p>
+                                <p class="hover:underline"><a href="#">Pricing</a></p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="mt-8 md:mt-0">
+                        <div class="text-sm text-left mb-3 font-semibold">NEWS & INFO</div>
+                        <div class="text-left space-y-1 > * text-base">
+                            <p class="hover:underline"><a href="#">About</a></p>
+                            <p class="hover:underline"><a href="#">Contact</a></p>
+                            <p class="hover:underline">Careers</p>
+                            <p class="hover:underline"><a href="#">Investors</a></p>
+                            <p class="hover:underline"><a href="#">Corporate</a></p>
+                        </div>
+                        <div class="mt-4">
+                            <div class="text-left text-sm mb-1 font-semibold">
+                                SECURITY
+                            </div>
+                            <div class="text-left space-y-1 > * text-base">
+                                <p class="hover:underline"><a href="#">Docs</a></p>
+                                <p class="hover:underline"><a href="#">Clients</a></p>
+                                <p class="hover:underline"><a href="#">Pricing</a></p>
+                                <p class="hover:underline"><a href="#">Payment</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 md:mt-0">
+                        <div class="text-sm text-left mb-3 font-semibold">RESOURCES</div>
+                        <div class="text-left space-y-1 > * text-base">
+                            <p class="hover:underline"><a href="#">Blogs</a></p>
+                            <p class="hover:underline"><a href="#">Publications</a></p>
+                            <p class="hover:underline"><a href="#">E-books</a></p>
+                        </div>
+                        <div class="mt-4">
+                            <div class="text-left text-sm mb-1 font-semibold">
+                                MORE PRODUCTS
+                            </div>
+                            <div class="text-left space-y-1 > * text-base">
+                                <p class="hover:underline"><a href="#">Docs</a></p>
+                                <p class="hover:underline"><a href="#">Clients</a></p>
+                                <p class="hover:underline"><a href="#">Pricing</a></p>
+                                <p class="hover:underline"><a href="#">Payment</a></p>
+                                <p class="hover:underline"><a href="#">Blog</a></p>
+                                <p class="hover:underline"><a href="#">App</a></p>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="mt-8 xl:mt-0">
+                        <div class="text-sm text-left mb-3 font-semibold">LEGAL</div>
+                        <div class="text-left space-y-1 > * text-base">
+                            <p class="hover:underline"><a href="#">Disclaimer</a></p>
+                            <p class="hover:underline"><a href="#">Conduct</a></p>
+                            <p class="hover:underline"><a href="#">Terms and Conditions</a></p>
+                            <p class="hover:underline"><a href="#">Privacy policy</a></p>
+                            <p class="hover:underline"><a href="#">Contact</a></p>
+                            <p class="hover:underline"><a href="#">Certification</a></p>
+                            <p class="hover:underline"><a href="#">Data</a></p>
+                            <p class="hover:underline"><a href="#">Security</a></p>
+                            <p class="hover:underline"><a href="#">Quality Control</a></p>
+                        </div>  
+                    </div>
+                </div>
+                <div class="flex flex-wrap justify-between">
+                    <div class="font-bold mb-12">
+                        <span class="text-2xl tracking-widest">AXIOM</span>
+                    </div>
+                    <div class="flex justify-center space-x-4 > * text-white mr-12 xl:mr-24 mb-8">
+                        <svg class="cursor-pointer email h-4 w-auto fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.117 11.337"><path d="M0,3V14.338H15.117V3ZM13.553,4.26l-6,4.858-6-4.858h11.99ZM1.26,13.078V5.635l6.3,5.1,6.3-5.1v7.443Z" transform="translate(0 -3)"></path></svg>
+                        <svg class="cursor-pointer instagram h-4 w-auto fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 13.735 13.735"><g transform="translate(-522 -203.829)"><path d="M6.867,1.238c1.834,0,2.051.007,2.776.04a2.58,2.58,0,0,1,2.815,2.815c.033.724.039.941.039,2.775s-.007,2.051-.039,2.775a2.581,2.581,0,0,1-2.815,2.815c-.725.033-.941.04-2.776.04s-2.051-.007-2.775-.04A2.581,2.581,0,0,1,1.277,9.642c-.033-.724-.04-.941-.04-2.775s.007-2.05.04-2.775A2.58,2.58,0,0,1,4.092,1.277c.725-.033.941-.039,2.775-.039ZM6.867,0C5,0,4.769.008,4.036.041A3.791,3.791,0,0,0,.042,4.036C.008,4.769,0,5,0,6.867S.008,8.967.041,9.7a3.791,3.791,0,0,0,3.995,3.995c.733.033.967.041,2.832.041s2.1-.008,2.832-.041A3.791,3.791,0,0,0,13.693,9.7c.034-.733.042-.967.042-2.832s-.008-2.1-.041-2.831A3.79,3.79,0,0,0,9.7.042C8.967.008,8.732,0,6.867,0Zm0,3.341a3.527,3.527,0,1,0,3.526,3.526A3.527,3.527,0,0,0,6.867,3.341Zm0,5.816A2.289,2.289,0,1,1,9.157,6.867,2.289,2.289,0,0,1,6.867,9.157Zm3.666-6.779a.824.824,0,1,0,.824.824A.824.824,0,0,0,10.533,2.378Z" transform="translate(522 203.829)"></path></g></svg>
+                        <svg class="cursor-pointer facebook h-4 w-auto fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 6.5 13"><path data-name="facebook-[#176]" d="M333.434,7252v-5.85h1.776l.29-2.6h-2.066v-1.266c0-.669.018-1.334.953-1.334h.948v-1.859A10.522,10.522,0,0,0,333.7,7239c-1.719,0-2.8,1.077-2.8,3.055v1.495H329v2.6h1.9V7252Z" transform="translate(-329 -7239)" fill-rule="evenodd"></path></svg>
+                        <svg class="cursor-pointer twitter h-4 w-auto fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.342 10.674"><path d="M8.2,7371.674A7.673,7.673,0,0,0,15.985,7364c0-.116,0-.232-.008-.347a5.527,5.527,0,0,0,1.366-1.4,5.522,5.522,0,0,1-1.572.424,2.71,2.71,0,0,0,1.2-1.49,5.525,5.525,0,0,1-1.738.653,2.771,2.771,0,0,0-3.873-.117,2.673,2.673,0,0,0-.792,2.575,7.815,7.815,0,0,1-5.642-2.815,2.672,2.672,0,0,0,.848,3.6,2.756,2.756,0,0,1-1.243-.336v.033a2.707,2.707,0,0,0,2.2,2.642,2.765,2.765,0,0,1-1.236.046,2.736,2.736,0,0,0,2.557,1.872A5.542,5.542,0,0,1,4,7370.463a7.839,7.839,0,0,0,4.2,1.208" transform="translate(-4 -7361)" fill-rule="evenodd"></path></svg>
+                        <svg class="cursor-pointer linkedin h-4 w-auto fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.469 12.469"><path d="M136.469,7331.468h-2.494V7327.1c0-1.2-.528-1.865-1.475-1.865-1.031,0-1.642.7-1.642,1.865v4.363h-2.494v-8.1h2.494v.912a3.006,3.006,0,0,1,2.546-1.373c1.764,0,3.065,1.076,3.065,3.3Zm-10.946-9.4a1.534,1.534,0,1,1,1.522-1.534A1.528,1.528,0,0,1,125.522,7322.067Zm-1.522,9.4h3.117v-8.1H124Z" transform="translate(-124 -7318.999)" fill-rule="evenodd"></path></svg>
+                    </div> 
+                    <div class="flex mb-12 items-center">
+                        <span class=" ">English</span>
+                        <svg class="w-4 h-auto ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
